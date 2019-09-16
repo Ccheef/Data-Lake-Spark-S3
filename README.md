@@ -1,6 +1,6 @@
 # Data-Lake-Spark-S3
 <h2>Introduction</h2>
-The music streaming startup, Sparkify, has grown their user base and song database and want to move their data warehouse to a data lake on AWS. <strong>This project builds an ETL pipeline that extracts their data in json files from S3, processes data using Spark, and loads processed data back into S3 as a set of dimensional tables stored in parquet files for the use of the analytics team </strong>
+The music streaming startup, Sparkify, has grown their user base and song database and want to move their data warehouse to a data lake on AWS. <strong>This project builds an ETL pipeline that extracts their data in json files from S3, processes data using Spark, and loads processed data back into S3 as a set of tables stored in parquet files for the use of the analytics team </strong>
 
 -------------------------------------------------
 
