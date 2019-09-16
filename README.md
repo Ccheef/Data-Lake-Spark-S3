@@ -37,7 +37,8 @@ The music streaming startup, Sparkify, has grown their user base and song databa
 
 <h2>ETL Pipeline</h2>
 etl.py reads the songs and log json files from the S3, processes the files with Spark to extract the tables mentioned above, and writes the tables back to S3 as a set of partitioned parquet files<br>
-The dl.cfg contains the credentials for accessing AWS. 
+The dl.cfg contains the credentials for accessing AWS.<br>
+The data directory contains the small sample of the dataset stored on S3.
 
 ---------------------------------
 
@@ -45,5 +46,5 @@ The dl.cfg contains the credentials for accessing AWS.
 <ol>
 <li>Run etl.py to do the whole ETL process</li>
 </ol>
-NOTE: Credentials for AWS have been removed from the dl.cfg. Remember to fill your own credentials in order to run the etl.py file)
+NOTE: Credentials for AWS have been removed from the dl.cfg. Remember to fill your own credentials in order to run the etl.py file. If you want experiment the code locally, you can use the data directory and then move to S3.
 
